@@ -1,10 +1,10 @@
 # CookieBook
 <ul> 
 	<li><a href=#Digital>Digital Cookbook</a></li>
-  <li><a href=#Mergeregeln>Mergeregeln</a></li>
-  <li><a href=#Links>Links</a></li>
+  	<li><a href=#Mergeregeln>Mergeregeln</a></li>
+  	<li><a href=#Links>Links</a></li>
 </ul>
-<h1 id="Digital">Projekt digitales Kochbuch</h1>
+<h2 id="Digital">Projekt digitales Kochbuch</h2>
 <ul>
   <li>create & save recipes for yourself</li>
   <li>share recipes with family and friends</li>
@@ -41,7 +41,7 @@
 	<li>}</li>
 	<li>PO merged auf master</li>
 </ul>
-<h3 id="Links">Links</h3>
+<h2 id="Links">Links</h2>
 <ul>
 <li>Wordpress https://mycookiebook.wordpress.com/</li>
 <li>Jira https://mycookiebook.atlassian.net</li>
