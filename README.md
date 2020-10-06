@@ -1,8 +1,8 @@
 # CookieBook
 <ul> 
-  <li><a href=#Digital>Digital Cookbook</li>
-  <li><a href=#Mergeregeln>Mergeregeln</li>
-  <li><a href=#Links>Links</li>
+	<li><a href=#Digital>Digital Cookbook</a></li>
+  <li><a href=#Mergeregeln>Mergeregeln</a></li>
+  <li><a href=#Links>Links</a></li>
 </ul>
 <h1 id="Digital">Projekt digitales Kochbuch</h1>
 <ul>
