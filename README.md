@@ -1,7 +1,7 @@
 # CookieBook
 links:
 - https://mycookiebook.wordpress.com/
-- https://mycookiebook.atlassian.net/secure/RapidBoard.jspa?rapidView=1&projectKey=COOK
+- https://mycookiebook.atlassian.net
 
 digital cookbook: 
 - create & save recipes for yourself
