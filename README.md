@@ -45,5 +45,4 @@
 <ul>
 <li>Wordpress https://mycookiebook.wordpress.com/</li>
 <li>Jira https://mycookiebook.atlassian.net</li>
-<li>Google Docs https://docs.google.com/document/d/1S21PEPu93tL8H19i1qgO-WdtKm67N9ZOwufyIhbs3DA/edit</li>
 </ul>
