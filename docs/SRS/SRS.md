@@ -90,13 +90,16 @@ Our idea is to develop a web-application that allows user to create and save rec
 Our web-application will be developed with java in the backend 
 
 ### 2.2 Use Case Diagram
+The following picture shows our Use Case Diagram:
+- add picture
+
 * Green: Planned until the end of december
 * Orange: Planned until the end of june
 * White: Additional features
 
 ### 2.3 Technology Stack
 
-Technologies we use:
+Technologies we are going to use:
 
 Backend: Java
 
@@ -111,115 +114,64 @@ IDE:
 Project Management: YouTrack, Github
 
 ## 3. Specific Requirements
-[This section of the SRS should contain all the software requirements to a level of detail sufficient to enable designers to design a system to satisfy those requirements, 
-and testers to test that the system satisfies those requirements.   When using use-case modeling, these requirements are captured in the Use-Cases and the applicable 
-supplementary specifications.  If use-case modeling is not used, the outline for supplementary specifications may be inserted directly into this section, as shown below.]
 
 ### 3.1 Functionality - Web Application
-###3.1.1 
-[This section describes the functional requirements of the system for those requirements which are expressed in the natural language style. For many applications, this may 
-constitute the bulk of the SRS Package and thought should be given to the organization of this section. This section is typically organized by feature, but alternative 
-organization methods may also be appropriate, for example, organization by user or organization by subsystem.  Functional requirements may include feature sets, capabilities, 
-and security.
-Where application development tools, such as requirements tools, modeling tools, etc., are employed to capture the functionality, this section document will refer to the 
-availability of that data, indicating the location and name of the tool that is used to capture the data.]
-
-#### 3.1.1 Functional Requirement One
-[The requirement description.]
+### 3.1.1 Create an account
+We need an account system to give the users access for creating, sharing and commenting recipes.
+### 3.1.2 Add a recipe
+(tbd)
+### 3.1.3 Share a recipe
+(tbd)
+### 3.1.4 Add friends
+(tbd)
+### 3.1.5 Categorize recipes
+It will be possible to categorize the recipes.
+### 3.1.6 Comment and like recipes
+(tbd)
+### 3.1.7 Step by step instruction (optional)
+### 3.1.8 Send requests to friends' recipe (optional)
+### 3.1.9 Share the whole CookieBook (optional)
+### 3.1.10 Profile
+The Profile page will display information about the user (username, change password, email, friends list).
 
 ## 3.2 Usability
-[This section should include all of those requirements that affect usability. For example,
- - specify the required training time for a normal users and a power user to become productive at particular operations
- - specify measurable task times for typical tasks or base the new system?s usability requirements on other systems that the users know and like
- - specify requirement to conform to common usability standards, such as IBM?s CUA standards Microsoft?s GUI standards]
-
-### 3.2.1 Usability Requirement One
-[The requirement description goes here.]
+### 3.2.1 Intuitive user guidance
+We want to develop an intuitive web-application which is as easy as possible to use. 
+### 3.2.2 
 
 ## 3.3 Reliability
-[Requirements for reliability of the system should be specified here. Some suggestions follow:
- - Availability?specify the percentage of time available ( xx.xx%), hours of use, maintenance access, degraded mode operations, etc.
- - Mean Time Between Failures (MTBF) ? this is usually specified in hours, but it could also be specified in terms of days, months or years.
- -  Mean Time To Repair (MTTR)?how long is the system allowed to be out of operation after it has failed?
- - Accuracy?specify precision (resolution) and accuracy (by some known standard) that is required in the system?s output.
- - Maximum Bugs or Defect Rate?usually expressed in terms of bugs per thousand of lines of code (bugs/KLOC) or bugs per function-point( bugs/function-point).
- - Bugs or Defect Rate?categorized in terms of minor, significant, and critical bugs: the requirement(s) must define what is meant by a ?critical? bug; for example, complete 
-   loss of data or a complete inability to use certain parts of the system?s functionality.]
-
-### 3.3.1 Reliability Requirement One
-[The requirement description.]
+### 3.3.1 Server availability
+The website servers will always be online so the the users have always access to their CookieBook. 
 
 ## 3.4 Perfomance
-[The system?s performance characteristics should be outlined in this section. Include specific response times. Where applicable, reference related Use Cases by name.
- - response time for a transaction (average, maximum)
- - throughput, for example, transactions per second
- - capacity, for example, the number of customers or transactions the system can accommodate
- - degradation modes (what is the acceptable mode of operation when the system has been degraded in some manner)
- - resource utilization, such as memory, disk, communications, etc.
-
-### 3.4.1 Performance Requirement One
-[The requirement description goes here.]
-
+### 3.4.1 Response time
+The response time should be as low as possible. 
+### 3.4.2 Capacity
+We want to provide 
+### 3.4.3 Memory
+We want 
 ### 3.5 Supportability
-[This section indicates any requirements that will enhance the supportability or maintainability of the system being built, including coding standards, naming conventions, 
-class libraries, maintenance access, maintenance utilities.]
-
-#### 3.5.1 Supportability Requirement One
-[The requirement description goes here.]
-
+(tbd)
 ### 3.6 Design Constraints
-[This section should indicate any design constraints on the system being built. Design constraints represent design decisions that have been mandated and must be adhered to.  
-Examples include software languages, software process requirements, prescribed use of developmental tools, architectural and design constraints, purchased components, class 
-libraries, etc.]
-
-#### 3.6.1 <Design Constraint One>
-[The requirement description goes here.]
-
+(tbd)
 ### 3.7 On-line User Documentation and Help System Requirements
-We are going to focus on building an intuitive modern-looking web-application to allow users to use our website without problems. We will also implement an "FAQ" that contains instruction on how to use the application, features and leave our contacts for possible questions. 
+We are going to focus on building an intuitive modern-looking web-application to allow users to use our website without problems. We will also implement an "FAQ" that contains instructions on how to use the application, features and leave our contacts for possible questions. 
 
 ### 3.8 Purchased Components
 (tbd)
-[This section describes any purchased components to be used with the system, any applicable licensing or usage restrictions, and any associated compatibility and interoperability or 
-interface standards.]
-
 ### 3.9 Interfaces
-
-#### 3.9.1 User Interfaces
-
-[Describe the user interfaces that are to be implemented by the software.]
-
+(tbd)
 #### 3.9.2 Hardware Interfaces
 (tbd)
-[This section defines any hardware interfaces that are to be supported by the software, including logical structure, physical addresses, expected behavior, etc. ]
-
 #### 3.9.3 Software Interfaces
 MyCookieBook is a web-application, so it will run in any browser.
-
-[This section describes software interfaces to other components of the software system. These may be purchased components, components reused from another application or 
-components being developed for subsystems outside of the scope of this SRS but with which this software application must interact.]
-
 #### 3.9.4 Communications Interfaces
 (tbd)
-[Describe any communications interfaces to other systems or devices such as local area networks, remote serial devices, etc.]
-
 ### 3.10 Licensing Requirements
 (tbd)
-[Defines any licensing enforcement requirements or other usage restriction requirements that are to be exhibited by the software.]
-
 ### 3.11 Legal, Copyright, and Other Notices
 (tbd)
-[This section describes any necessary legal disclaimers, warranties, copyright notices, patent notice, wordmark, trademark, or logo compliance issues for the software.]
-
 ### 3.12 Applicable Standards
 (tbd)
-[This section describes by reference any applicable standard and the specific sections of any such standards which apply to the system being described. For example, this could 
-include legal, quality and regulatory standards, industry standards for usability, interoperability, internationalization, operating system compliance, etc.]
-
 ## 4. Supporting Information
-[The supporting information makes the SRS easier to use.  It includes:
- - Table of contents
- - Index
- - Appendices
-These may include use-case storyboards or user-interface prototypes. When appendices are included, the SRS should explicitly state whether or not the appendices are to be 
-considered part of the requirements.]
+(tbd)
