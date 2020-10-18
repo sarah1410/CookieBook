@@ -82,8 +82,8 @@ Our idea is to develop a web-application that allows user to create and save rec
 Our web-application will be developed with java in the backend 
 
 ### 2.2 Use Case Diagram
-The following picture shows our Use Case Diagram:
-- add picture
+The following link includes our Use Case Diagram: [OUCD](https://drive.google.com/drive/folders/1PwEWLw7x1sG2xNPuH_lOGjHWSNv4g3hT?usp=sharing)
+
 
 * Yellow: Planned until the end of december
 * Purple: Planned until the end of june
