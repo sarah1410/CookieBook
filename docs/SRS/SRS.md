@@ -73,13 +73,11 @@ The web-application consists of the following features:
 | n/a         | not applicable                         |
 | tbd         | to be determined                       |
 | FAQ       | Frequently asked questions    |
-| ----------- | -------------------------------------- |
 
 ### 1.4 References
 | Title                                                                           | Date       | Publishing organization   |
 | --------------------------------------------------------------------------------|:----------:| ------------------------- |
 | [MyCookieBook Blog](https://mycookiebook.wordpress.com)                                                                    | 17.10.2020 | <MyCookieBook Team>                  |
-| --------------------------------------------------------------------------------|:----------:| ------------------------- |
 | [Github](https://github.com/zhibekbastian/CookieBook)                                                                    | 17.10.2020 | <MyCookieBook Team>                  |
 
 ### 1.5 Overview
