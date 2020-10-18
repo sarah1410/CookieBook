@@ -45,8 +45,9 @@ This Software Requirements Specification (SRS) gives a general overview over the
 The project MyCookieBook is a web-application. 
 The web-application consists of the following features:
 * Account system where users can create accounts to save and share their recipes 
-* Recipe creating
-* Recipe sharing
+* Add recipe
+* Share recipe
+* Edit recipe
 * Friends list
 * Categorize recipes
 * Bookmark recipe
@@ -113,17 +114,18 @@ We need an account system to give the users access for creating, sharing and com
 (tbd)
 ### 3.1.3 Share a recipe
 (tbd)
-### 3.1.4 Add friends
+### 3.1.4 Edit recipe
+### 3.1.5 Add friends
 (tbd)
-### 3.1.5 Categorize recipes
+### 3.1.6 Categorize recipes
 It will be possible to categorize the recipes.
-### 3.1.6 Bookmark recipe
-### 3.1.7 Comment and like recipes
+### 3.1.7 Bookmark recipe
+### 3.1.8 Comment and like recipes
 (tbd)
-### 3.1.8 Step by step instruction (optional)
-### 3.1.9 Send requests to friends' recipe (optional)
-### 3.1.10 Share the whole CookieBook (optional)
-### 3.1.11 Profile
+### 3.1.9 Step by step instruction (optional)
+### 3.1.10 Send requests to friends' recipe (optional)
+### 3.1.11 Share the whole CookieBook (optional)
+### 3.1.12 Profile
 The Profile page will display information about the user (username, change password, email, friends list).
 
 ## 3.2 Usability
