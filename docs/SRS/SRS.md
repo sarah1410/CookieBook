@@ -1,4 +1,4 @@
-Project - PROJECTNAME | Software Requirements Specification
+Project - MyCookieBook | Software Requirements Specification
 ======
 Version <1.0>
 ======
