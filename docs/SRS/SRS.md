@@ -163,7 +163,7 @@ We are going to focus on building an intuitive modern-looking web-application to
 #### 3.9.2 Hardware Interfaces
 (tbd)
 #### 3.9.3 Software Interfaces
-MyCookieBook is a web-application, so it will run in any browser.
+MyCookieBook is a web-application, so it should run in any browser. We will test our web-application on Safari, Chrome, FireFox, Microsoft Edge.
 #### 3.9.4 Communications Interfaces
 (tbd)
 ### 3.10 Licensing Requirements
