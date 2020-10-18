@@ -71,7 +71,7 @@ The web-application consists of the following features:
 | [Github](https://github.com/zhibekbastian/CookieBook)                                                                    | 17.10.2020 | MyCookieBook Team                  |
 
 ### 1.5 Overview
-The following chapter gives an overview of this project with our vision and Overall Use Case Diagram. It also contains information about the software requirements specification.
+The following chapters give an overview of this project with our vision and Overall Use Case Diagram. It also contains information about the software requirements specification.
 
 ## 2. Overall Description
 
