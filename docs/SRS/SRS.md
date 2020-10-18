@@ -83,9 +83,9 @@ Our web-application will be developed with java in the backend
 The following picture shows our Use Case Diagram:
 - add picture
 
-* Green: Planned until the end of december
-* Orange: Planned until the end of june
-* White: Additional features
+* Yellow: Planned until the end of december
+* Purple: Planned until the end of june
+* Gray: Additional features
 
 ### 2.3 Technology Stack
 
