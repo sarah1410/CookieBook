@@ -77,8 +77,8 @@ The web-application consists of the following features:
 ### 1.4 References
 | Title                                                                           | Date       | Publishing organization   |
 | --------------------------------------------------------------------------------|:----------:| ------------------------- |
-| [MyCookieBook Blog](https://mycookiebook.wordpress.com)                                                                    | 17.10.2020 | <MyCookieBook Team>                  |
-| [Github](https://github.com/zhibekbastian/CookieBook)                                                                    | 17.10.2020 | <MyCookieBook Team>                  |
+| [MyCookieBook Blog](https://mycookiebook.wordpress.com)                                                                    | 17.10.2020 | MyCookieBook Team                  |
+| [Github](https://github.com/zhibekbastian/CookieBook)                                                                    | 17.10.2020 | MyCookieBook Team                  |
 
 ### 1.5 Overview
 The following chapter gives an overview of this project with our vision and Overall Use Case Diagram. It also contains information about the software requirements specification.
