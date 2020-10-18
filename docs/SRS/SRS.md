@@ -45,16 +45,16 @@ This Software Requirements Specification (SRS) gives a general overview over the
 The project MyCookieBook is a web-application. 
 The web-application consists of the following features:
 * Account system where users can create accounts to save and share their recipes 
-* Add recipe
+* Friends list
+* Create recipe
 * Share recipe
 * Edit recipe
-* Friends list
-* Categorize recipes
-* Bookmark recipe
-* Comment and like recipe
+* Delete recipe
+* Bookmark favourite recipe
+* Leave comments and likes (optional)
 * Step by step instruction (optional)
-* Send requests to friends' recipe (optional)
-* Share the whole CookieBook
+* Send request to friends' recipe (optional)
+* Share the whole CookieBook (optional)
 
 ### 1.3 Definitions, Acronyms and Abbreviations
 | Abbrevation | Explanation                            |
@@ -101,56 +101,61 @@ Database: MySQL
 
 Testing: JUnit, Mockito
 
-IDE:
+IDE: IntelliJ, Eclipse
 
 Project Management: YouTrack, Github
 
 ## 3. Specific Requirements
 
 ### 3.1 Functionality - Web Application
-### 3.1.1 Create an account
-We need an account system to give the users access for creating, sharing and commenting recipes.
-### 3.1.2 Add a recipe
-(tbd)
+### 3.1.1 User account
+We need an account system to give the users access for creating, sharing and commenting recipes. 
+### 3.1.2 Create a recipe
+The user has the opportunity to add a recipe with step by step instruction including the ingredients and other descriptions (name of recipe, author, difficulty level and category).
 ### 3.1.3 Share a recipe
-(tbd)
+The user has the option to share recipes with selected friends and family members. If the user shares his recipe with someone, receiving user gets the shared recipe in his own CookieBook.
 ### 3.1.4 Edit recipe
-### 3.1.5 Add friends
-(tbd)
-### 3.1.6 Categorize recipes
-It will be possible to categorize the recipes.
-### 3.1.7 Bookmark recipe
-### 3.1.8 Comment and like recipes
-(tbd)
-### 3.1.9 Step by step instruction (optional)
+It is also possible to edit an existing recipe.
+### 3.1.5 Delete recipe
+The user can delete an existing recipe.
+### 3.1.6 Bookmark favourite recipe
+The user can bookmark his favourite recipe to have faster access.
+### 3.1.7 Leave comments and likes (optional)
+The user is able to comment and like shared recipes.
+### 3.1.9 Special view of step by step instruction (optional)
+This feature makes it easier for the user to follow the recipe.
 ### 3.1.10 Send requests to friends' recipe (optional)
+The user can send requests to friends' recipe.
 ### 3.1.11 Share the whole CookieBook (optional)
-### 3.1.12 Profile
-The Profile page will display information about the user (username, change password, email, friends list).
+It could be possible to share all recipes from the CookieBook with the selected user.
 
 ## 3.2 Usability
 ### 3.2.1 Intuitive user guidance
-We want to develop an intuitive web-application which is as easy as possible to use. 
-### 3.2.2 
+We want to develop an intuitive web-application which is as easy as possible to use and gives the user the opportunity to save recipes in his own Cookiebook in order to have recipes at one place instead of having a lot of notes somewhere at home.
+### 3.2.2 FAQ
+We will implement a FAQ to help the user on using the web-application. 
+### 3.2.3. Smartphonefriendly (optional)
+The web-application should be smartphonefriendly.
 
 ## 3.3 Reliability
 ### 3.3.1 Server availability
 The website servers will always be online so the the users have always access to their CookieBook. 
+### 3.3.2 Data privacy
+The data of the user is visible only for him.
 
 ## 3.4 Perfomance
 ### 3.4.1 Response time
 The response time should be as low as possible. 
-### 3.4.2 Capacity
-We want to provide 
+### 3.4.2 Server availability
+The server should always be online to provide access to data.
 ### 3.4.3 Memory
-We want 
+(tbd)
 ### 3.5 Supportability
 (tbd)
 ### 3.6 Design Constraints
 (tbd)
 ### 3.7 On-line User Documentation and Help System Requirements
 We are going to focus on building an intuitive modern-looking web-application to allow users to use our website without problems. We will also implement an "FAQ" that contains instructions on how to use the application, features and leave our contacts for possible questions. 
-
 ### 3.8 Purchased Components
 (tbd)
 ### 3.9 Interfaces
