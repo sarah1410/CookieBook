@@ -1,9 +1,6 @@
-Project - MyCookieBook | Software Requirements Specification
-======
-Version <1.0>
+MyCookieBook | Software Requirements Specification
 ======
 
-- [#Revision History](#-revision-history)
 - [1. Introduction](#1-introduction)
   * [1.1 Purpose](#11-purpose)
   * [1.2 Scope](#12-scope)
@@ -38,13 +35,6 @@ Version <1.0>
   * [3.11 Legal, Copyright, and Other Notices](#311-legal--copyright--and-other-notices)
   * [3.12 Applicable Standards](#312-applicable-standards)
 - [4. Supporting Information](#4-supporting-information)
-
-#Revision History
------
-
-|    Date    | Version | Description | Author |
-|------------|---------|-------------|--------|
-| XX.XX.XXXX |   X.X   |  <details>  | <name> |
 
 ## 1. Introduction
 
