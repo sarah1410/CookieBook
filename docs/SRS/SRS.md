@@ -49,6 +49,7 @@ The web-application consists of the following features:
 * Recipe sharing
 * Friends list
 * Categorize recipes
+* Bookmark recipe
 * Comment and like recipe
 * Step by step instruction (optional)
 * Send requests to friends' recipe (optional)
@@ -116,12 +117,13 @@ We need an account system to give the users access for creating, sharing and com
 (tbd)
 ### 3.1.5 Categorize recipes
 It will be possible to categorize the recipes.
-### 3.1.6 Comment and like recipes
+### 3.1.6 Bookmark recipe
+### 3.1.7 Comment and like recipes
 (tbd)
-### 3.1.7 Step by step instruction (optional)
-### 3.1.8 Send requests to friends' recipe (optional)
-### 3.1.9 Share the whole CookieBook (optional)
-### 3.1.10 Profile
+### 3.1.8 Step by step instruction (optional)
+### 3.1.9 Send requests to friends' recipe (optional)
+### 3.1.10 Share the whole CookieBook (optional)
+### 3.1.11 Profile
 The Profile page will display information about the user (username, change password, email, friends list).
 
 ## 3.2 Usability
