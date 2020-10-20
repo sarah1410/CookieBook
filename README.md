@@ -1,7 +1,7 @@
 # CookieBook
 <ul> 
 	<li><a href=#Digital>Digital Cookbook</a></li>
-  	<li><a href=#Mergeregeln>Mergeregeln</a></li>
+  	<li><a href=#Merge rules>Merge rules</a></li>
   	<li><a href=#Links>Links</a></li>
 </ul>
 <h2 id="Digital">Projekt digitales Kochbuch</h2>
@@ -9,7 +9,7 @@
   <li>create & save recipes for yourself</li>
   <li>share recipes with family and friends</li>
 </ul>
-<h2 id="Mergeregeln">Vorgehen bei fertigen Features:</h2>
+<h2 id="Merge rules">Vorgehen bei fertigen Features:</h2>
 <ul>
 	<li>While !PullRequestAufMasterBestätigt</li>
 	<li>{
