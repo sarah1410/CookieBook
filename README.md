@@ -4,7 +4,7 @@
   	<li><a href=#Merge rules>Merge rules</a></li>
   	<li><a href=#Links>Links</a></li>
 </ul>
-<h2 id="Digital">Projekt digitales Kochbuch</h2>
+<h2 id="Digital">Project digitales Kochbuch</h2>
 <ul>
   <li>create & save recipes for yourself</li>
   <li>share recipes with family and friends</li>
