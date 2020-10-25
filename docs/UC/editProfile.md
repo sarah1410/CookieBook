@@ -5,7 +5,6 @@
         - [2.1.1 Activity Diagram](#211-activity-diagram)
         - [2.1.2 Mockup](#212-mockup)
         - [2.1.3 Narrative](#213-narrative)
-    - [2.2 Alternative Flows](#21-alternative-flows)
 - [3. Special Requirements](#3-special-requirements)
 - [4. Precondition](#4-preconditions)  
 - [5. Postconditions](#5-postconditions)
@@ -23,8 +22,8 @@ This use case gives users the possibility to edit their profile settings. A user
 ![Profile Page Edit](https://github.com/zhibekbastian/CookieBook/blob/main/docs/UC/Profilepage_Edit.JPG)
 ![Profile Page](https://github.com/zhibekbastian/CookieBook/blob/main/docs/UC/Profilepage.JPG)
 #### 2.1.3 Narrative
-### 2.2 Alternative Flows
 ## 3. Special requirements
+n/a
 ## 4. Preconditions
 The main preconditions for this use case are:
 - The user has internet connection
@@ -35,4 +34,6 @@ The main preconditions for this use case are:
 ### 5.1 Save changes
 The profile of the user has been saved and updated on the server.
 ## 6. Extension Points
+tbd
 ## 7. Function Points
+tbd
