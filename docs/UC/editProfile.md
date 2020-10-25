@@ -20,7 +20,8 @@ This use case gives users the possibility to edit their profile settings. A user
 #### 2.1.1 Activity Diagram
 ![Activity Diagram](https://github.com/zhibekbastian/CookieBook/blob/main/docs/UC/UCD_EditProfile.JPG)
 #### 2.1.2 Mockup
-![Profile Page](https://github.com/zhibekbastian/CookieBook/blob/main/docs/UC/Profilpage_Edit.JPG)
+![Profile Page Edit](https://github.com/zhibekbastian/CookieBook/blob/main/docs/UC/Profilepage_Edit.JPG)
+![Profile Page](https://github.com/zhibekbastian/CookieBook/blob/main/docs/UC/Profilepage.JPG)
 #### 2.1.3 Narrative
 ### 2.2 Alternative Flows
 ## 3. Special requirements
