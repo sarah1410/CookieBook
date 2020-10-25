@@ -20,12 +20,10 @@ This use case allows the user to view recipes, add new recipes and edit them. It
 #### 2.1.1 Activity Diagram
 ![Activity Diagram](https://github.com/zhibekbastian/CookieBook/blob/main/docs/UC/UCD_ManageRecipe.JPG)
 #### 2.1.2 Mockup
-![Edit Recipe](https://github.com/zhibekbastian/CookieBook/blob/main/docs/UC/Recipepage_Edit_NewRecipe.JPG)
 ![Recipe Page](https://github.com/zhibekbastian/CookieBook/blob/main/docs/UC/Recipepage.JPG)
+![Edit Recipe](https://github.com/zhibekbastian/CookieBook/blob/main/docs/UC/Recipepage_Edit_NewRecipe.JPG)
 
 ## 3. Special requirements
-### 3.1 Account
-The user has to create an account to view his CookieBook and to manage recipes.
 ### 4. Preconditions
 The main preconditions for this use case are:
 - The user has internet connection.
