@@ -19,8 +19,8 @@ This use case gives users the possibility to edit their profile settings. A user
 #### 2.1.1 Activity Diagram
 ![Activity Diagram](https://github.com/zhibekbastian/CookieBook/blob/main/docs/UC/UCD_EditProfile.JPG)
 #### 2.1.2 Mockup
-![Profile Page Edit](https://github.com/zhibekbastian/CookieBook/blob/main/docs/UC/Profilepage_Edit.JPG)
 ![Profile Page](https://github.com/zhibekbastian/CookieBook/blob/main/docs/UC/Profilepage.JPG)
+![Profile Page Edit](https://github.com/zhibekbastian/CookieBook/blob/main/docs/UC/Profilepage_Edit.JPG)
 #### 2.1.3 Narrative
 ## 3. Special requirements
 n/a
@@ -33,6 +33,8 @@ The main preconditions for this use case are:
 ## 5. Postconditions
 ### 5.1 Save changes
 The profile of the user has been saved and updated on the server.
+### 5.2 Cancel changes
+The user can cancel changes.
 ## 6. Extension Points
 tbd
 ## 7. Function Points
