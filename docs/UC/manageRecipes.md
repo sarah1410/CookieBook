@@ -18,9 +18,10 @@ This use case allows the user to view recipes, add new recipes and edit them. It
 ## 2. Flow of Events
 ### 2.1 Basic Flow
 #### 2.1.1 Activity Diagram
-![Activity Diagram]()
+![Activity Diagram](https://github.com/zhibekbastian/CookieBook/blob/main/docs/UC/UCD_ManageRecipe.JPG)
 #### 2.1.2 Mockup
-![Mockup]()
+![Edit Recipe](https://github.com/zhibekbastian/CookieBook/blob/main/docs/UC/Recipepage_Edit_NewRecipe.JPG)
+![Recipe Page](https://github.com/zhibekbastian/CookieBook/blob/main/docs/UC/Recipepage.JPG)
 
 ## 3. Special requirements
 ### 3.1 Account
@@ -41,4 +42,6 @@ Selected recipe has been edited.
 ### 5.4 Delete recipe
 Selected recipe is deleted from CookieBook.
 ## 6. Extension Points
+tbd
 ## 7. Function Points
+tbd
