@@ -18,7 +18,7 @@ This use case gives users the possibility to edit their profile settings. A user
 ## 2. Flow of Events
 ### 2.1 Basic Flow
 #### 2.1.1 Activity Diagram
-![Activity Diagram]()
+![Activity Diagram](https://github.com/zhibekbastian/CookieBook/blob/main/docs/UC/UCD_EditProfile.JPG)
 #### 2.1.2 Mockup
 ![Profile Page](https://github.com/zhibekbastian/CookieBook/blob/main/docs/UC/Profilpage_Edit.JPG)
 #### 2.1.3 Narrative
