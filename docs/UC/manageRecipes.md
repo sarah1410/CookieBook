@@ -34,7 +34,7 @@ The main preconditions for this use case are:
 ### 5.1. Create recipe
 A recipe is created by the user and added to his CookieBook.
 ### 5.2 View recipes
-The user can view all recipes in his CookieBook.
+The user can view recipes in his CookieBook.
 ### 5.3 Edit recipe
 Selected recipe has been edited.
 ### 5.4 Delete recipe
