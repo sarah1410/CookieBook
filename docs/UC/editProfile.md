@@ -20,7 +20,7 @@ This use case gives users the possibility to edit their profile settings. A user
 #### 2.1.1 Activity Diagram
 ![Activity Diagram]()
 #### 2.1.2 Mockup
-![Mockup]()
+![Profile Page](https://github.com/zhibekbastian/CookieBook/blob/main/docs/UC/Profilpage_Edit.JPG)
 #### 2.1.3 Narrative
 ### 2.2 Alternative Flows
 ## 3. Special requirements
