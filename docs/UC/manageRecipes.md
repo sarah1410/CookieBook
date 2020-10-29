@@ -18,13 +18,12 @@ This use case allows the user to view recipes, add new recipes and edit them. It
 ## 2. Flow of Events
 ### 2.1 Basic Flow
 #### 2.1.1 Activity Diagram
-![Activity Diagram]()
+![Activity Diagram](https://github.com/zhibekbastian/CookieBook/blob/main/docs/UC/UCD_ManageRecipe.JPG)
 #### 2.1.2 Mockup
-![Mockup]()
+![Recipe Page](https://github.com/zhibekbastian/CookieBook/blob/main/docs/UC/Recipepage.JPG)
+![Edit Recipe](https://github.com/zhibekbastian/CookieBook/blob/main/docs/UC/Recipepage_Edit_NewRecipe.JPG)
 
 ## 3. Special requirements
-### 3.1 Account
-The user has to create an account to view his CookieBook and to manage recipes.
 ### 4. Preconditions
 The main preconditions for this use case are:
 - The user has internet connection.
@@ -35,10 +34,12 @@ The main preconditions for this use case are:
 ### 5.1. Create recipe
 A recipe is created by the user and added to his CookieBook.
 ### 5.2 View recipes
-The user views all recipes in his CookieBook.
+The user can view recipes in his CookieBook.
 ### 5.3 Edit recipe
 Selected recipe has been edited.
 ### 5.4 Delete recipe
 Selected recipe is deleted from CookieBook.
 ## 6. Extension Points
+tbd
 ## 7. Function Points
+tbd
