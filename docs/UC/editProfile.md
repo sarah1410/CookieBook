@@ -17,10 +17,10 @@ This use case gives users the possibility to edit their profile settings. A user
 ## 2. Flow of Events
 ### 2.1 Basic Flow
 #### 2.1.1 Activity Diagram
-![Activity Diagram](https://github.com/zhibekbastian/CookieBook/blob/main/docs/UC/UCD_EditProfile.JPG)
+![Activity Diagram](https://github.com/zhibekbastian/CookieBook/blob/main/docs/UC/images/UCD_EditProfile.JPG)
 #### 2.1.2 Mockup
-![Profile Page](https://github.com/zhibekbastian/CookieBook/blob/main/docs/UC/Profilepage.JPG)
-![Profile Page Edit](https://github.com/zhibekbastian/CookieBook/blob/main/docs/UC/Profilepage_Edit.JPG)
+![Profile Page](https://github.com/zhibekbastian/CookieBook/blob/main/docs/UC/images/Profilepage.JPG)
+![Profile Page Edit](https://github.com/zhibekbastian/CookieBook/blob/main/docs/UC/images/Profilepage_Edit.JPG)
 #### 2.1.3 Narrative
 ## 3. Special requirements
 n/a
