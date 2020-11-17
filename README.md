@@ -44,5 +44,6 @@
 <h2 id="Links">Links</h2>
 <ul>
 <li>Wordpress https://mycookiebook.wordpress.com/</li>
-<li>Jira https://mycookiebook.atlassian.net</li>
+<li>YouTrack https://dhbw-karlsruhe.myjetbrains.com/youtrack/dashboard?id=daa9d0a7-920f-4823-8c67-75f6c7c3bf62</li>
+<li>GoogleDrive https://drive.google.com/drive/folders/1RLntYzZecRrzEGmy14V4NU9Bf6p_2Sqh</li>
 </ul>
