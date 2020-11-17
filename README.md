@@ -4,42 +4,42 @@
   	<li><a href=#Merge rules>Merge rules</a></li>
   	<li><a href=#Links>Links</a></li>
 </ul>
-<h2 id="Digital">Project digitales Kochbuch</h2>
+<h2 id="Digital">Project digital cookbook</h2>
 <ul>
   <li>create & save recipes for yourself</li>
   <li>share recipes with family and friends</li>
 </ul>
 <h2 id="Merge rules">Merge rules</h2>
 <ul>
-	<li>While !PullRequestAufMasterBestätigt</li>
+	<li>While !PullRequestInMasterApproved</li>
 	<li>{
 		<ul>
-			<li>While !PullRequestAufReviewBestätigt</li>
+			<li>While !PullRequestInReviewApproved</li>
 			<li>{
 				<ul>
-					<li>Feature fertig machen</li>
-					<li>lokal review auschecken und mit remote/review <b>überschreiben</b> (git checkout mastergit pull -f)
+					<li>complete feature</li>
+					<li>check local review and <b>overwrite</b> with remote/review (git checkout mastergit pull -f)
 						<ul>
 							<li>git checkout master</li>
-							<li>git branch -d review (alt.: git branch -D review)</li>
+							<li>git branch -d review </li>
 							<li>git checkout -b review</li>
 							<li>git pull origin review</li>
 						</ul>	
 					</li>
-					<li>Testen auf Funktion (lokal!: review -> feature_XXX, dann kann man lokal direkt schon die Merge Konflikte lösen), while(fehlerExists){händisch Fehler beheben}</li>
-					<li>pull request (auf github.com) feature_XXX->review</li>
-					<li>Task auf <code>Code Review</code></li> 
-					<li>PullRequestAufReviewBestätigt = Response der anderen Devs</>
+					<li>Testing functions (local!: review -> feature_XXX, solve merge conflicts locally), while(problemExists){solve problem manually}</li>
+					<li>pull request feature_XXX->review</li>
+					<li>switch Task to<code>toVerify</code></li> 
+					<li>PullRequestInReviewApproved = Response of the other Devs</>
 				</ul>
 			</li>
 			<li>}</li>
-			<li>Task auf <code>Ready for (PO)</code></li>
-			<li>Änderungen in wöchentlichem Treffen PO vorstellen</li>
-			<li>PullRequestAufMasterBestätigt = Response von PO</>
+			<li>switch Task to <code>Done</code></li>
+			<li>show progress and changes in the weekly meetings</li>
+			<li>PullRequestInMasterApproved = Response from the other members</>
 		</ul>
 	</li>
 	<li>}</li>
-	<li>PO merged auf master</li>
+	<li>merge to master</li>
 </ul>
 <h2 id="Links">Links</h2>
 <ul>
