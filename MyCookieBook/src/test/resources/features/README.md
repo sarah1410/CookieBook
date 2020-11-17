@@ -24,7 +24,7 @@
 <h2>Run Cucumber Tests</h2>
 <ul>
   <li>use the icons in the gutter to either run a specific <b>Scenario</b> or the whole <b>Feature</b></li>
-  <li> run Cucumber tests with Junit by adding <b> cucumber-junit </b> dependency to the project</li>
+  <li> run Cucumber tests with JUnit by adding <b> cucumber-junit </b> dependency to the project</li>
       <ul>
           <li>Code example</li>
           
