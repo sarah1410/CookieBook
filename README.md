@@ -9,7 +9,7 @@
   <li>create & save recipes for yourself</li>
   <li>share recipes with family and friends</li>
 </ul>
-<h2 id="Merge rules">Vorgehen bei fertigen Features:</h2>
+<h2 id="Merge rules">Merge rules</h2>
 <ul>
 	<li>While !PullRequestAufMasterBestätigt</li>
 	<li>{
