@@ -82,7 +82,7 @@ n/a
 ## 7. Deployment View  
 tbd
 ## 8. Implementation View
-Our class diagram is represented in the picture below. Click on the link to open it. 
+Our class diagram is represented in the picture below. 
 ![Class-Diagram](../Diagrams/class_diagramm.svg)
 [Link to class diagram](../Diagrams/class_diagramm.svg)
 ## 9. Data View
