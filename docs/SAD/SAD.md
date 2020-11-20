@@ -64,7 +64,7 @@ Languages:
 ## 3. Architectural Goals and Constraints
 tbd
 ## 4. Use-Case View
-![OUCD](../images(OUCD.jpg)
+![OUCD](https://github.com/zhibekbastian/CookieBook/blob/master/docs/UC/images/OUCD.JPG)
 ### 4.1 Use-Case Realizations
 - [UC Edit profile](../UC/editProfile.md)
 - [UC Manage recipes](../UC/manageRecipes.md)
