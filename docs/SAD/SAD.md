@@ -28,7 +28,7 @@
 ### 1.1 Purpose
 This Software Architecture Document provides an architectural overview of our system and should help to easily understand our software.
 ### 1.2 Scope
-The scope of the Software Architecture Document is to show the architecture of MyCookieBook project. Use-Cases and classes are included.
+The scope of the Software Architecture Document shows the architecture of MyCookieBook project. Use-Cases and classes are included.
 ### 1.3 Definitions, Acronyms and Abbreviations
 Abbreviation | |
 --- | --- 
