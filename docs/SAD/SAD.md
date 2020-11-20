@@ -60,7 +60,7 @@ IDE we use: JetBrains IntelliJ
 Languages:
 - Frontend: Java, Angular, SpringBoot
 - Backend: Java
-- Testing: Juni. Mockito
+- Testing: JUnit, Mockito
 ## 3. Architectural Goals and Constraints
 tbd
 ## 4. Use-Case View
