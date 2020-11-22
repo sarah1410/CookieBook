@@ -86,7 +86,7 @@ Our class diagram is represented in the picture below.
 ![Class-Diagram](../Diagrams/class_diagramm.png)
 [Link to class diagram](../Diagrams/class_diagramm.png)
 ## 9. Data View
-![DB Scheme](../Diagrams/DB Scheme.png)
+![DB Scheme](../Diagrams/DBScheme.png)
 
 ## 10. Size and Performance
 tbd
