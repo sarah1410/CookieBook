@@ -39,6 +39,12 @@ dependencies {
     //lombok
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
+//
+////    JDBC
+//    compile('org.springframework.boot:spring-boot-starter-jdbc')
+//
+////    MySQL
+//    compile('mysql:mysql-connector-java')
 
     //Spring Boot Test
     testImplementation('org.springframework.boot:spring-boot-starter-test') {
