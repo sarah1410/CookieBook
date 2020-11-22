@@ -83,8 +83,8 @@ n/a
 tbd
 ## 8. Implementation View
 Our class diagram is represented in the picture below. 
-![Class-Diagram](../Diagrams/class_diagramm.svg)
-[Link to class diagram](../Diagrams/class_diagramm.svg)
+![Class-Diagram](../Diagrams/class_diagramm.png)
+[Link to class diagram](../Diagrams/class_diagramm.png)
 ## 9. Data View
 tbd add db schema diagram
 
