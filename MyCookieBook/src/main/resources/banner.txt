@@ -13,5 +13,5 @@ ${AnsiColor.WHITE}
 Project Name: ${project.name}
 Spring Boot Version: ${spring-boot.version}
 Spring Boot Formatted Version: ${spring-boot.formatted-version}
-Swagger UI: http://localhost:${server.port}${server.servlet.context-path}/swagger-ui.html
+Swagger UI: http://localhost:${server.port} ${server.servlet.context-path}/swagger-ui.html
 ------------------------------------------------------------------------
