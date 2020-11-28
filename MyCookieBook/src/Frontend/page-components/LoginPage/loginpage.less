@@ -1,0 +1,52 @@
+@import "../../component.less";
+@import "~general_css/colors";
+
+.login-background {
+    background-image: url("./background.png");
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.login-backgroundimage-align {
+    /*Zentriert das Hintergrundbild bei allen Groessen*/
+    position: absolute;
+    width: 10000px;
+    left: 50%;
+    margin: 0 0 0 -5000px;
+    text-align: center;
+}
+.login-img {
+    min-width: 100vw;
+    min-height: 100vh;
+    position: relative;
+}
+.login-form-align {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+.login-header {
+    margin-bottom: 10px;
+}
+
+.login-label {
+    margin: 10px 0 0 0;
+}
+
+.login-input {
+    width: 150px;
+    outline: 0;
+    placeholder: "";
+}
+
+.login-input:focus {
+    border-color: var(--Color-BG);
+}
+
+#login-button {
+    margin: 30px 0 0 0;
+}
