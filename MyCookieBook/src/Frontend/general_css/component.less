@@ -1,0 +1,61 @@
+@import "~general_css/colors";
+
+/** General **/
+.title {
+  width: 100%;
+  display: block;
+  font-family: 'Traumlande','Morpheus','PTSerif';
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: var(--link-hover);
+
+}
+
+#.showMore {
+ color: var(--link);
+}
+
+#.error {
+  .detail-icon-error {
+    width: 45px;
+    height: 45px;
+    color: @markant-red;
+  }
+
+  .error-msg {
+    max-width: 80%;
+    color: @purple;
+  }
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+#.grid-item-content widget {
+  scrollbar-color: var(--scrollbar-eservice-widget-background) var(--scrollbar-eservice-widget) ;
+  scrollbar-width: thin;
+}
+
+/** Loading Spinner **/
+::ng-deep .mat-progress-spinner svg,
+::ng-deep .mat-progress-spinner {
+  margin: 0 auto 15px;
+}
+
+/** Scrollbar **/
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 11px;
+  border: 7px solid var(--scrollbar-eservice-widget);
+  background-color: var(--scrollbar-eservice-widget-background);
+}
