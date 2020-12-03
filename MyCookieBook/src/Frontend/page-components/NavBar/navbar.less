@@ -1,0 +1,62 @@
+.navbar-all {
+  align-items: center;
+  background-color: var(--Color-primary);
+  border-radius: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.navbar-link {
+  align-self: flex-end;
+  background-color: transparent;
+  border: none;
+  color: black;
+  cursor: pointer;
+  display: inline;
+  font-size: var(--FontSize-Navbar);
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.5s ease-in-out;
+  outline: 0;
+}
+.navbar-link:hover {
+  background-color: var(--Color-highlight);
+  font-size: calc(var(--FontSize-Navbar) + 5px);
+}
+
+.navbar-link.active {
+  font-size: calc(var(--FontSize-Navbar) + 8px);
+  color: var(--Color-current);
+  cursor: default;
+}
+.navbar-link.active:hover {
+  background-color: var(--Color-primary);
+  color: var(--Color-current);
+}
+
+.navbar-logo {
+  cursor: pointer;
+  height: 45px;
+  margin: 10px;
+  width: auto;
+}
+
+.navbar-title {
+  align-self: center;
+  color: black;
+  cursor: pointer;
+  margin: auto auto auto 10px;
+}
+
+.navbar-input {
+    width: 150px;
+    outline: 0;
+    placeholder: "";
+}
+
+.navbar-input:focus {
+    border-color: var(--Color-BG);
+}

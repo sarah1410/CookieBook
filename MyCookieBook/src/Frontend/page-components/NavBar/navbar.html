@@ -1,0 +1,147 @@
+//Medien - Bilder
+import logo_b2dh from "../../media/images/Logo.jpg";
+//Styles
+import "./navbar.less";
+
+<header id="navbar" className="navbar-all">
+    <img
+        alt="Logo"
+        className="navbar-logo"
+        id="nav-logo"
+        onClick={redirectWithoutRerender}
+        src={logo}
+    />
+    <h2
+        className="navbar-title"
+        id="nav-title"
+        onClick={redirectWithoutRerender}
+    >
+        myCookieBook
+    </h2>
+    <nav className="navbar-nav">
+        <a
+            className="navbar-link"
+            href={"/recipe/"}
+            id="nav-newRecipe"
+            onClick={redirectWithoutRerender}
+            type="button"
+        >
+            neues Rezept
+        </a>
+        <a
+            className="navbar-link"
+            href={"/overviewRecipes/"}
+            id="nav-overviewRecipes"
+            onClick={redirectWithoutRerender}
+            type="button"
+        >
+            Rezepte
+        </a>
+        <input
+            id="searchInput"
+            class="input navbar-input"
+            type="text"
+            onChange={handleEmailChanged}
+            value="Suche"
+        />
+        <a
+            className="navbar-link"
+            href={"/profile/"}
+            id="nav-profile"
+            onClick={redirectWithoutRerender}
+            type="button"
+        >
+            Profil
+        </a>
+        <a
+            className="navbar-link"
+            href={"/logout/"}
+            id="nav-logout"
+            onClick={redirectWithoutRerender}
+            type="button"
+        >
+            Logout
+        </a>
+    </nav>
+</header>
+<div class="navbar-background">
+    <div class="navbar-form-align">
+        <form onSubmit={handleSubmit} id="navbar-form">
+            <h1 class="main-header">MyCookieBook</h1>
+            <a
+                className="navbarError"
+                href="{/error404/"}
+                id="nav-error"
+                onClick={redirectWithoutRerender}
+                type="button"
+            >
+                Error404
+            </a>
+            <a
+                    className="navbarHelp"
+                    href="{/help/"}
+                    id="nav-help"
+                    onClick={redirectWithoutRerender}
+                    type="button"
+            >
+                Hilfe
+            </a>
+        </form>
+    </div>
+</div>
+
+
+<!--function redirect_navBar(from) {-->
+<!--switch (from.toLowerCase()) {-->
+<!--case "nav-title":-->
+<!--if (isNotOnSamePage("/")) {-->
+<!--do_redirect_navBar("/");-->
+<!--}-->
+<!--break;-->
+<!--case "nav-stats":-->
+<!--if(isNotOnSamePage("/stats/participants/")) {-->
+<!--do_redirect_navBar("/stats/");-->
+<!--}-->
+<!--break;-->
+<!--case "nav-help":-->
+<!--if(isNotOnSamePage("/help/helpCompetition/")) {-->
+<!--do_redirect_navBar("/help/");-->
+<!--}-->
+<!--break;-->
+<!--case "nav-logo-b2dh":-->
+<!--if(isNotOnSamePage("/")) {-->
+<!--do_redirect_navBar("/");-->
+<!--}-->
+<!--break;-->
+<!--case "nav-logo-dhbw":-->
+<!--do_redirect_navBar("https://www.karlsruhe.dhbw.de", "_blank");-->
+<!--break;-->
+<!--case "nav-map":-->
+<!--if(isNotOnSamePage("/")) {-->
+<!--do_redirect_navBar("/");-->
+<!--}-->
+<!--break;-->
+<!--case "nav-profile":-->
+<!--if(isNotOnSamePage("/profile/")) {-->
+<!--do_redirect_navBar("/profile/");-->
+<!--}-->
+<!--break;-->
+<!--default:-->
+<!--do_redirect_navBar("/");-->
+<!--}-->
+<!--}-->
+
+<!--function isNotOnSamePage(target) {-->
+<!--return (location.pathname !== target);-->
+<!--}-->
+
+<!--function do_redirect_navBar(where, target) {-->
+<!--if (target) {-->
+<!--window.open(where, target);-->
+<!--} else {-->
+<!--history.push(where);-->
+<!--}-->
+<!--}-->
+<!--}-->
+
+<!--export default NavBar;-->
