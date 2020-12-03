@@ -1,3 +1,6 @@
+# CookieBook
+## Use Case Specification: Edit profile
+### Table of Contents
 - [1. Specification - Edit profile](#1-specification-edit-profile)
     - [1.1 Brief Description](#11-brief-description)
 - [2. Flow of Events](#2-flow-of-events)
@@ -17,11 +20,11 @@ This use case gives users the possibility to edit their profile settings. A user
 ## 2. Flow of Events
 ### 2.1 Basic Flow
 #### 2.1.1 Activity Diagram
-![Activity Diagram](https://github.com/zhibekbastian/CookieBook/blob/main/docs/UC/images/UCD_EditProfile.JPG)
+![Activity Diagram](https://github.com/zhibekbastian/CookieBook/blob/master/docs/UC/images/UCD_EditProfile.JPG)
 #### 2.1.2 Mockup
-![Profile Page](https://github.com/zhibekbastian/CookieBook/blob/main/docs/UC/images/Profilepage.JPG)
+![Profile Page](https://github.com/zhibekbastian/CookieBook/blob/master/docs/UC/images/Profilepage.JPG)
 ![Profile Page Edit](https://github.com/zhibekbastian/CookieBook/blob/main/docs/UC/images/Profilepage_Edit.JPG)
-#### 2.1.3 Narrative
+
 ## 3. Special requirements
 n/a
 ## 4. Preconditions
@@ -35,7 +38,5 @@ The main preconditions for this use case are:
 The profile of the user has been saved and updated on the server.
 ### 5.2 Cancel changes
 The user can cancel changes.
-## 6. Extension Points
-tbd
-## 7. Function Points
+## 6. Function Points
 tbd

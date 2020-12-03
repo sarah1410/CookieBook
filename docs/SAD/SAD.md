@@ -26,9 +26,9 @@
 
 ## 1. Introduction
 ### 1.1 Purpose
-This Software Architecture Document provides an architectural overview of our system and should help to easily understand our software.
+This Software Architecture Document provides an architectural overview of the system and should help to easily understand our software.
 ### 1.2 Scope
-The scope of the Software Architecture Document shows the architecture of MyCookieBook project. Use-Cases and classes are included.
+The scope of this SAD is to show the architecture of MyCookieBook project. Use-Cases and classes are included.
 ### 1.3 Definitions, Acronyms and Abbreviations
 Abbreviation | |
 --- | --- 
@@ -54,9 +54,9 @@ Title | Date | Publishing organization |
 This SAD includes all the necessary architectural details of the project MyCookieBook. It contains a database diagram, that gives an overview about the structure of the project. Also architectural representation and goals are represented in this document.
 
 ## 2. Architectural Representation
-Our web application is build using Java, Angular, SpringBoot in the frontend and Eva in the backend. 
+Our web application is build using Java, Angular, SpringBoot in the frontend and Java in the backend for now.
 IDE we use: JetBrains IntelliJ
-
+Database: MySQL
 Languages:
 - Frontend: Java, Angular, SpringBoot
 - Backend: Java
@@ -70,17 +70,12 @@ tbd
 - [UC Manage recipes](../UC/manageRecipes.md)
 
 ## 5. Logical View
-### 5.1 Overview
 tbd
-
-### 5.2 Architecturally Significant Design Packages
-tbd
-
 ## 6. Process View
 n/a
 
 ## 7. Deployment View  
-tbd
+The application runs on 
 ## 8. Implementation View
 Our class diagram is represented in the picture below. 
 ![Class-Diagram](../Diagrams/class_diagramm.png)
