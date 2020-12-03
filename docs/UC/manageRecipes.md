@@ -32,13 +32,13 @@ The main preconditions for this use case are:
 
 ## 5. Postconditions
 ### 5.1. Create recipe
-A recipe is created by the user and added to his CookieBook.
+The user has the opportunity to add a recipe with step by step instruction including the ingredients and other descriptions (name of recipe, author, difficulty level and category).
 ### 5.2 View recipes
 The user can view recipes in his CookieBook.
 ### 5.3 Edit recipe
-Selected recipe has been edited.
+The user has the opportunity to edit selected recipe
 ### 5.4 Delete recipe
-Selected recipe is deleted from CookieBook.
+The user can delete an existing recipe.
 ## 6. Extension Points
 tbd
 ## 7. Function Points

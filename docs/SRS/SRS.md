@@ -69,21 +69,22 @@ The web-application consists of the following features:
 ### 1.4 References
 | Title                                                                           | Date       | Publishing organization   |
 | --------------------------------------------------------------------------------|:----------:| ------------------------- |
-| [MyCookieBook Blog](https://mycookiebook.wordpress.com)                                                                    | 17.10.2020 | MyCookieBook Team                  |
-| [Github](https://github.com/zhibekbastian/CookieBook)                                                                    | 17.10.2020 | MyCookieBook Team                  |
+| [MyCookieBook Blog](https://mycookiebook.wordpress.com)                                                                    | 17.10.2020 | Wordpress                  |
+| [Github](https://github.com/zhibekbastian/CookieBook)                                                                    | 17.10.2020 | GitHub                  |
 
 ### 1.5 Overview
-The following chapters give an overview of this project with our vision and Overall Use Case Diagram. It also contains information about the software requirements specification.
+The following chapters give an overview of this project with our vision based on the overall use case diagram. It also contains information about the software requirements specification.
 
 ## 2. Overall Description
-
 ### 2.1 Vision
-Our idea is to develop a web-application that allows user to create and save recipes where they are always accessible. In addition it is possible to share your favourite recipes with your family and friends which simplifies spreading the recipes. 
-Our web-application will be developed with java in the backend 
+The idea is to get an overview about tons of different recipes, which are scattered everywhere.
 
+In this case we want to develop a web application ‘MyCookieBook’ which allows us to create and save recipes online where they are always accessible. In addition it is possible to share your favourite recipes with your family and friends. That simplifies spreading the recipes.
+
+Have a look at our [blog](https://mycookiebook.wordpress.com/) for more background information.
 ### 2.2 Use Case Diagram
-The following link includes our Use Case Diagram: [OUCD](https://drive.google.com/drive/folders/1PwEWLw7x1sG2xNPuH_lOGjHWSNv4g3hT?usp=sharing)
-
+We created an overall use case diagram to have a better overview. 
+![OUCD](https://github.com/zhibekbastian/CookieBook/blob/master/docs/UC/images/OUCD.JPG)
 
 * Yellow: Planned until the end of december
 * Purple: Planned until the end of june
@@ -110,23 +111,21 @@ Project Management: YouTrack, Github
 ### 3.1 Functionality - Web Application
 ### 3.1.1 User account
 We need an account system to give the users access for creating, sharing and commenting recipes. 
-### 3.1.2 Create a recipe
-The user has the opportunity to add a recipe with step by step instruction including the ingredients and other descriptions (name of recipe, author, difficulty level and category).
-### 3.1.3 Share a recipe
+### 3.1.2 Edit Profile
+[The use case specification can be found here](https://github.com/zhibekbastian/CookieBook/blob/master/docs/UC/editProfile.md)
+### 3.1.3 Manage a recipe
+[The use case specification can be found here](https://github.com/zhibekbastian/CookieBook/blob/master/docs/UC/manageRecipes.md)
+### 3.1.4 Share a recipe
 The user has the option to share recipes with selected friends and family members. If the user shares his recipe with someone, receiving user gets the shared recipe in his own CookieBook.
-### 3.1.4 Edit recipe
-It is also possible to edit an existing recipe.
-### 3.1.5 Delete recipe
-The user can delete an existing recipe.
-### 3.1.6 Bookmark favourite recipe
+### 3.1.5 Bookmark favourite recipe
 The user can bookmark his favourite recipe to have faster access.
-### 3.1.7 Leave comments and likes (optional)
+### 3.1.6 Leave comments and likes (optional)
 The user is able to comment and like shared recipes.
-### 3.1.9 Special view of step by step instruction (optional)
+### 3.1.7 Special view of step by step instruction (optional)
 This feature makes it easier for the user to follow the recipe.
-### 3.1.10 Send requests to friends' recipe (optional)
+### 3.1.8 Send requests to friends' recipe (optional)
 The user can send requests to friends' recipe.
-### 3.1.11 Share the whole CookieBook (optional)
+### 3.1.9 Share the whole CookieBook (optional)
 It could be possible to share all recipes from the CookieBook with the selected user.
 
 ## 3.2 Usability
@@ -139,7 +138,8 @@ The web-application should be smartphonefriendly.
 
 ## 3.3 Reliability
 ### 3.3.1 Server availability
-The website servers will always be online so the the users have always access to their CookieBook. 
+ - The website servers should always be online so the user has always access to his CookieBook
+ 
 ### 3.3.2 Data privacy
 The data of the user is visible only for him.
 
@@ -157,20 +157,21 @@ The server should always be online to provide access to data.
 ### 3.7 On-line User Documentation and Help System Requirements
 We are going to focus on building an intuitive modern-looking web-application to allow users to use our website without problems. We will also implement an "FAQ" that contains instructions on how to use the application, features and leave our contacts for possible questions. 
 ### 3.8 Purchased Components
-(tbd)
+n/a
 ### 3.9 Interfaces
-(tbd)
+#### 3.9.1 User Interfaces
+tbd
 #### 3.9.2 Hardware Interfaces
-(tbd)
+n/a
 #### 3.9.3 Software Interfaces
 MyCookieBook is a web-application, so it should run in any browser. We will test our web-application on Safari, Chrome, FireFox, Microsoft Edge.
 #### 3.9.4 Communications Interfaces
-(tbd)
+n/a
 ### 3.10 Licensing Requirements
-(tbd)
+n/a
 ### 3.11 Legal, Copyright, and Other Notices
-(tbd)
+CookieBook retains the rights on their logo.
 ### 3.12 Applicable Standards
-(tbd)
+n/a
 ## 4. Supporting Information
-(tbd)
+Please visit our [blog](https://mycookiebook.wordpress.com/), if you would like to know the progress of this project.
