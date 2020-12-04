@@ -67,7 +67,6 @@ import "./navbar.less";
 <div class="navbar-background">
     <div class="navbar-form-align">
         <form onSubmit={handleSubmit} id="navbar-form">
-            <h1 class="main-header">MyCookieBook</h1>
             <a
                 className="navbarError"
                 href="{/error404/"}
@@ -85,6 +84,15 @@ import "./navbar.less";
                     type="button"
             >
                 Hilfe
+            </a>
+            <a
+                    className="navbarLogin"
+                    href="{/login/"}
+                    id="nav-login"
+                    onClick={redirectWithoutRerender}
+                    type="button"
+            >
+                Login
             </a>
         </form>
     </div>
